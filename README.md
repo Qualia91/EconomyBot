@@ -1,0 +1,2 @@
+# EconomyBot
+ Economy bot 
