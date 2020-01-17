@@ -1,6 +1,6 @@
-package com.nick.wood.economy_bot;
+package main.java.economy_bot;
 
-import com.nick.wood.economy_bot.model.Economy;
+import main.java.economy_bot.model.Economy;
 
 public class Main {
 

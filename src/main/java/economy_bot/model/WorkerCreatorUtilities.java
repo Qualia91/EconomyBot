@@ -1,9 +1,9 @@
-package com.nick.wood.economy_bot.model;
+package main.java.economy_bot.model;
 
 import java.util.ArrayList;
 
-import static com.nick.wood.economy_bot.model.Economy.RAND;
-import static com.nick.wood.economy_bot.model.ItemType.*;
+import static main.java.economy_bot.model.Economy.RAND;
+import static main.java.economy_bot.model.ItemType.*;
 
 public class WorkerCreatorUtilities {
 

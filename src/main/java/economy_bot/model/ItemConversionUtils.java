@@ -1,6 +1,6 @@
-package com.nick.wood.economy_bot.model;
+package main.java.economy_bot.model;
 
-import static com.nick.wood.economy_bot.model.Economy.RAND;
+import static main.java.economy_bot.model.Economy.RAND;
 
 public class ItemConversionUtils {
 

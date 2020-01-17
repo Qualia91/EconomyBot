@@ -1,4 +1,4 @@
-package com.nick.wood.economy_bot.model;
+package main.java.economy_bot.model;
 
 import java.util.ArrayList;
 import java.util.List;
