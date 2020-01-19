@@ -15,11 +15,8 @@ public class Worker {
     private ArrayList<Deal> rejectedDeals;
     private ItemConversionUtils.ConversionInterface conversionFunction;
 
-    public Worker(int money, /*boolean working, boolean trading, ItemType itemCreated,*/ Item[] items, ItemConversionUtils.ConversionInterface conversionInterface) {
+    public Worker(int money, Item[] items, ItemConversionUtils.ConversionInterface conversionInterface) {
         this.money = money;
-        //this.working = working;
-        //this.trading = trading;
-        //this.itemCreated = itemCreated;
         this.items = items;
         this.acceptedDeals = new ArrayList<>();
         this.rejectedDeals = new ArrayList<>();
@@ -166,29 +163,6 @@ public class Worker {
         return rejectedDeals;
     }
 
-    /*
-
-    public boolean isWorking() {
-        return working;
-    }
-
-    public void setWorking(boolean working) {
-        this.working = working;
-    }
-
-    public boolean isTrading() {
-        return trading;
-    }
-
-    public void setTrading(boolean trading) {
-        this.trading = trading;
-    }
-
-    public ItemType getItemCreated() {
-        return itemCreated;
-    }
-
-    */
 
     public void acceptDeal(Deal deal, boolean buy) {
 
