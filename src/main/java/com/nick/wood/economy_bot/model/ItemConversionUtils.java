@@ -1,6 +1,4 @@
-package main.java.economy_bot.model;
-
-import static main.java.economy_bot.model.Economy.RAND;
+package com.nick.wood.economy_bot.model;
 
 public class ItemConversionUtils {
 
@@ -52,7 +50,7 @@ public class ItemConversionUtils {
 
                 if (item.getItemType().equals(ItemType.TOOLS)) {
 
-                    int percent = RAND.nextInt(100 + 1);
+                    int percent = Economy.RAND.nextInt(100 + 1);
 
                     if (percent < TOOL_BREAK_PROB) {
 
@@ -134,7 +132,7 @@ public class ItemConversionUtils {
 
                 if (item.getItemType().equals(ItemType.TABLE)) {
 
-                    int percent = RAND.nextInt(100 + 1);
+                    int percent = Economy.RAND.nextInt(100 + 1);
 
                     if (percent < TABLE_BREAK_PROB) {
 
@@ -182,7 +180,7 @@ public class ItemConversionUtils {
 
                 if (item.getItemType().equals(ItemType.TOOLS)) {
 
-                    int percent = RAND.nextInt(100 + 1);
+                    int percent = Economy.RAND.nextInt(100 + 1);
 
                     if (percent < TOOL_BREAK_PROB) {
 
@@ -230,7 +228,7 @@ public class ItemConversionUtils {
 
                 if (item.getItemType().equals(ItemType.TOOLS)) {
 
-                    int percent = RAND.nextInt(100 + 1);
+                    int percent = Economy.RAND.nextInt(100 + 1);
 
                     if (percent < TOOL_BREAK_PROB) {
 

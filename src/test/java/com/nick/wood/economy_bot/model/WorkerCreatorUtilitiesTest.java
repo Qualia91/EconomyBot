@@ -1,4 +1,4 @@
-package main.java.economy_bot.model;
+package com.nick.wood.economy_bot.model;
 
 import org.junit.jupiter.api.Test;
 

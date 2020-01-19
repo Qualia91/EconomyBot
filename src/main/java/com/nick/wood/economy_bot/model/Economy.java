@@ -1,9 +1,6 @@
-package main.java.economy_bot.model;
+package com.nick.wood.economy_bot.model;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.Random;
 
 public class Economy implements Runnable {
